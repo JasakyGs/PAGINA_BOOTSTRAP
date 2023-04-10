@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url(./img/381817PBREP8572.jpg);
+    background-repeat: no-repeat;
+    background-size: 150% 420%;
+}
+:root{
+    --subsalmon: rgba(242, 112, 134, 0.786);
+     --aliceblue: aliceblue
+}
+.container_superior {
+    width: 100%;
+    height: 100%;
+}
+.container_header{
+    background-color: var(--subsalmon);
+}
+.container_fluid{
+    width: 100%;
+    height: 100px;
+}
+#piedra{
+   width: 10%; 
+} 
+.bi-telephone{
+    margin-right: 10%;
+}
+.bi-houses{
+    width: 30%;
+    height: 50%;
+}
+.imges{
+    border-radius: 10%;
+}
+.navbar{
+    background-color:  var(--subsalmon);
+}
+.form-control{
+    background-color: var(--aliceblue)
+} 
+#carouselExample {
+    margin-top: 5% ;
+    margin-bottom: 5%;
+    width: 50%;
+}
+.linea_0{
+    background-color:  var(--subsalmon);
+    background-color:  var(--subsalmon);
+    height: 5px;
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 80%;
+}
+.linea_1{
+    background-color:  var(--subsalmon);
+    background-color:  var(--subsalmon);
+    height: 5px;
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 80%;
+}
+.linea_2{
+    background-color:  var(--subsalmon);
+    background-color:  var(--subsalmon);
+    height: 5px;
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 80%;
+}
+.container_acordion{
+    background-color:  var(--subsalmon);
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 2% ;
+    margin-top:  6%;
+    margin-left: 10%;
+}
+.datos{
+    width: 80%;
+}
+.accordion{
+    margin-top: 2%;
+}
+.accordion-item {
+    margin-bottom: 1em;
+} 
+.fondo{
+    background-color: var(--subsubsalmon);
+    margin-top: 5% ;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+ 
+a{
+    color: var(--aliceblue);
+    list-style: none;
+}

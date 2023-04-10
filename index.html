@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <title>www.spa_statiks_com_con/redirec.scm/jas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container_superior">
+<!--Primer container en donde lleva el encabezado de (logo,nombre,numero) -->
+        <header class="container_header text-white p-2 text-center">
+          <div class="container-fluid;">
+      
+            <div class="row">
+              <div class="col-md-3 d-flex justify-content-center align-items-center">
+                <img id="piedra" src="./img/piedrota.png" alt="#">
+                <!-- <img id="flor" src="./florecita.png" alt="#"> -->
+                <!-- <i class="bi bi-journal-plus fs-3"></i> -->
+              </div>
+      
+              <div class="col-md-5 d-flex justify-content-center align-items-center">
+                <span id="span" class="fs-4">STATIKS_SPA</span>
+              </div>
+      
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <i class="bi bi-telephone fs-3"> <span>+57 316 7554399</span></i>
+              </div>
+            </div>
+          </div>
+        </header>
+      <!--aqui termina -->
+
+      <!-- Segundo container en donde se debe encontrar (logo,quienes somos,servicio[servicio1-servicios2], buscar y buscar como boton ) -->
+      <nav class="navbar sticky-top navbar-expand-lg fs-4" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <i class="bi bi-houses"></i>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#somos">¿Quienes somos?</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./servicio_1.html" >Domicilio</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./Servicio_2.html">Consulta</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contacto1">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- aqui termina -->
+
+      <!-- tercer container en donde se encuentran las imagenes que puedes mover y visualizar -->
+      <div id="carouselExample" class="carousel slide container "data-bs-ride="carousel"    >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/massage-therapy-g5ef0865ba_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/wellness-gfd0535ac5_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/wellness-g4e9ca452c_1280.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- aqui termina -->
+
+      <!-- linea separadora de contenido -->
+      <div class="linea_0">
+        <hr class="hr">
+      </div>
+      <!-- cierra aqui -->
+
+      <!-- cuarto container en donde se encuentra quienes somos junto con sus selectores y relleno -->
+        <div class="container_acordion datos row">
+          <div class="accordion accordion-flush col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xl-4 col-xxl-4" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Mision
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">La misión de un spa va más allá de proporcionar un simple servicio de relajación y belleza. Nuestra misión es brindar un ambiente acogedor y de confianza para que nuestros clientes puedan disfrutar de un momento de bienestar y paz interior.
+                  En nuestro spa, nos preocupamos profundamente por el bienestar de nuestros clientes y nos esforzamos por ofrecer servicios éticos y de alta calidad. Nos aseguramos de utilizar productos y técnicas seguras y efectivas para garantizar el máximo beneficio para la salud y la belleza de nuestros clientes.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Vision
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">nuestra visión es crear un mundo donde la relajación y la belleza sean una prioridad y una forma de vida para todos. Nos esforzamos por ser líderes en la industria del bienestar y la belleza, y en convertirnos en una marca reconocida por su compromiso con la excelencia y la calidad en todo lo que hacemos.
+
+                  Nos inspiramos en la naturaleza para desarrollar nuestros servicios y productos, y trabajamos de manera ética y sostenible para minimizar nuestro impacto en el medio ambiente. Queremos ser una fuente de inspiración y de bienestar para nuestros clientes, y para aquellos que buscan adoptar un estilo de vida más saludable y consciente.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Valores
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">En nuestro spa, valoramos la honestidad, la integridad y la transparencia en todo lo que hacemos. Nos comprometemos a ofrecer servicios y productos de alta calidad y éticos para garantizar la satisfacción y el bienestar de nuestros clientes.
+
+                Nos esforzamos por crear un ambiente acogedor y de confianza, donde nuestros clientes se sientan valorados y respetados. Nos preocupamos por la inclusión y la diversidad, y trabajamos para asegurar que todos nuestros clientes se sientan cómodos y bienvenidos en nuestro spa.</div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mt-2">
+              <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#myModal">Donar</button>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Haz una donación</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                  <p>Gracias por considerar hacer una donación a nuestro spa. Su contribución nos ayuda a continuar brindando servicios de alta calidad a nuestros clientes.</p>
+                  <form>
+                    <div class="form-group">
+                      <label for="amount">Cantidad:</label>
+                      <input type="number" class="form-control" id="amount">
+                    </div>
+                    <button type="submit" class="btn btn-outline-success">Enviar</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </div>
+        <!-- div que encierra el otro contenido al lado del acordion -->
+
+          <div class=" col col-sm-12 col-md-12 col-lg-12 col-xs-12 col-xl-7 col-xxl-7 white text-white">
+              <div class="row">
+                <div class="col-12 ">
+                  <h2 class="mb-3 text-center text-white" id="somos">¿Quienes somos?</h2>
+                </div>
+                <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 images">
+                  <img src="./img/spa-face-mask.jpg" alt="#" style="height: 70% ; width: 70%; border-radius: 50%; border: 4px solid rgba(228, 228, 228, 0.868);">
+                </div>
+                <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 text-wrap fs-5 justificar">
+                  <p>¡Descubre la experiencia única de nuestro spa y deja que tu cuerpo y mente se sumerjan en un oasis de relajación y bienestar! En nuestro spa, nos apasiona brindarte un momento de tranquilidad en medio del ajetreo de la vida cotidiana, donde puedas rejuvenecer y restaurar tus sentidos.</p>
+                </div>
+              </div>  
+          </div>
+        </div> 
+      </div>
+      <!-- aqui termina -->
+        <!-- linea separadora de contenido -->
+            <div class="linea_1">
+              <hr class="hr">
+            </div>
+        <!-- cierra aqui -->
+
+        <!-- quinto container en donde se encuentran las cartas-->
+        <div class=" conntainer_5" style="margin-top: 7%; background-color: var(--subsalmon);">
+          <div class="row rounded-3 p-3 d-flex gap-4 justify-content-center" style="width: 100%; height: 100%;">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/woman-gf3a0bddfc_1280.jpg" class="card-img-top p-2 me-auto ms-auto" alt="..." style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 5px 5px 9px black ;">
+                <div class="card-body">
+                    <h5 class="card-title">Masajes</h5>
+                    <p class="card-text">¿Te sientes estresado y con tensión muscular? Un masaje en el spa puede ser la solución perfecta para aliviar esa tensión y hacer que te sientas relajado y renovado. Los masajes en el spa son realizados por terapeutas profesionales que utilizan técnicas específicas para aliviar la tensión muscular, mejorar la circulación sanguínea y reducir el estrés.</p>
+                    <!-- Button trigger modal -->
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#cerdito">
+                            Solicitar
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="cerdito" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="cerditoLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="cerditoLabel">Quieres mas informacion ?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  llena el formulario y haznos saber tu pedido.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Denegar</button>
+                                    <button type="button" class="btn btn-outline-success">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/woman-gf63bd324f_1280.jpg" class="card-img-top p-2 me-auto ms-auto" alt="..." style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 5px 5px 9px black ;">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamientos faciales</h5>
+                    <p class="card-text"> ¿Quieres lucir una piel radiante y saludable? Un tratamiento facial en el spa puede ser justo lo que necesitas. Los tratamientos faciales ayudan a limpiar profundamente la piel, eliminar las células muertas, hidratarla y nutrirla para mejorar su apariencia. Además, un tratamiento facial puede ser una experiencia relajante.</p>
+                    <!-- Button trigger modal -->
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-outline-success mt-4" data-bs-toggle="modal" data-bs-target="#corazon">
+                          Solicitar
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="corazon" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="corazonpLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="corazonLabel">Quieres mas informacion ?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  llena el formulario y haznos saber tu pedido.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Denegar</button>
+                                    <button type="button" class="btn btn-outline-success">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pexels-castorly-stock-3872899.jpg" class="card-img-top p-2 pt-4 me-auto ms-auto" alt="..." style="width: 200px; height: 200px;border-radius: 10%; box-shadow: 5px 5px 9px black ;">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamientos corporales</h5>
+                    <p class="card-text">¿Quieres mimar a tu cuerpo con un tratamiento rejuvenecedor? Los tratamientos corporales en el spa son una excelente manera de hacerlo. Estos tratamientos se enfocan en exfoliar, hidratar y suavizar la piel del cuerpo. Los terapeutas utilizan una combinación de técnicas y productos especiales.</p>
+                    <!-- Button trigger modal -->
+                    <div class="text-center mt-5">
+                        <button type="button" class="btn btn-outline-success mt-5" data-bs-toggle="modal" data-bs-target="#tierra">
+                          Solicitar
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="tierra" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="tierraLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="tierraLabel">Quieres mas informacion ?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  llena el formulario y haznos saber tu pedido.
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Denegar</button>
+                                    <button type="button" class="btn btn-outline-success">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/fresh-fruits-g338f7b22e_1280.jpg" class="card-img-top p-2 me-auto ms-auto" alt="..." style="width: 200px; height: 200px; border-radius: 50%; box-shadow: 5px 5px 9px black ;">
+                <div class="card-body">
+                    <h5 class="card-title">Nutrición y dieta</h5>
+                    <p class="card-text">¿Quieres mejorar tu salud y bienestar en general? Los servicios de asesoramiento nutricional en el spa pueden ayudarte a lograrlo. Los nutricionistas en el spa pueden ayudarte a crear un plan de alimentación personalizado que te ayude a lograr tus objetivos de salud y bienestar. Además, pueden proporcionarte consejos y trucos para mantener un estilo de vida saludable.</p>
+                    <!-- Button trigger modal -->
+                    <div class="text-center">
+                        <button type="button" class="btn btn-outline-success mt-1 mb-4" data-bs-toggle="modal" data-bs-target="#roger">
+                          Solicitar
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="roger" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="rogerLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="rogerLabel">Quieres mas informacion ?</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  llena el formulario y haznos saber tu pedido.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Denegar</button>
+                                    <button type="button" class="btn btn-outline-success">Aceptar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- aqui termina -->
+
+      <!-- linea separadora de contenido -->
+              <div class="linea_2">
+                <hr class="hr">
+              </div>
+      <!-- cierra aqui -->
+
+      <!-- container en donde se encuentra el formulario -->
+      <div class="container fondo" style="background-color: var(--subsalmon);" id="contacto1">
+        <form action="">
+        <div class="row text-center">
+          <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h3 class="text-white fw-bolder fs-1">Contactanos</h3>
+          </div>
+          <div class="col-12">
+            <div class="row d-flex justify-content-center">
+              <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Nombre</span>
+                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Apellido</span>
+                  <input type="text" class="form-control" placeholder="Apellido" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="col-xxl-7 col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Email</span>
+                  <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+              </div>
+              <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1">Telefono</span>
+                  <input type="phone" class="form-control" placeholder="Telefono" aria-label="Username" aria-roledescription="basic-addon1">
+                </div>
+              </div>
+              <div class="mb-3 form-floating col-xxl-10 col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <textarea  class="form-control" placeholder="Deja un comentario aquí" id="floattingeTextarea"></textarea>
+                <label for="floattingeTextarea">Mensaje</label>
+              </div>
+              <div class="mb-3">
+                <button type="button" class="btn btn-outline-success">Enviar</button>
+              </div> 
+            </div>
+          </div>
+
+        </div>
+      </form>
+      </div>
+      <!-- aqui termina -->
+
+      <!-- container del footer en donde lleva el programador que desarrollo la pagina -->
+      <div>
+          <div class="d-flex justify-content-center mt-5">
+              <button class="btn btn-outline-success mb-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Developed By</button>
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                  <div class="offcanvas-header" style="background: rgb(255,255,255);
+                  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,176,190,0.8901611670058649) 74%);">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body small d-flex justify-content-center align-items-center" style="background: rgb(255,255,255);
+                  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,176,190,0.8901611670058649) 74%);">
+                      Desarrollado por: © Johan Sebastian Galvis -------- Páginas web, redes sociales, blogs, ebooks, newsletters, etc.
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- aqui termina -->
+    </main>
+</body>
+</html>
