@@ -105,7 +105,9 @@ body{
     align-items: stretch;
     width: 100%;
 }
- 
+.form-floating:not(.form-control:disabled)::before{
+    content: none;
+}
 a{
     color: var(--aliceblue);
     list-style: none;
